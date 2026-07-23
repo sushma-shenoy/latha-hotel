@@ -338,7 +338,7 @@ html.menu-open,body.menu-open{overflow:hidden!important;height:100%}
   .carousel-cue{display:block}
 }
 @media(max-width:560px){
-  .heritage-video-card{grid-template-columns:1fr;justify-items:center;text-align:center;padding:32px 22px;gap:16px}
+  .heritage-video-card{width: 100%;height: intrinsic;grid-template-columns:1fr;justify-items:center;text-align:center;padding:32px 22px;gap:16px}
   .video-monogram{width:82px;height:82px}
   .heritage-video-card .play-button{position:static}
 }
