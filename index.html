@@ -1,166 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#10251c" />
-  <meta name="description" content="Latha Hotel — traditional vegetarian coastal Karnataka dining with a refined modern experience." />
-  <meta property="og:title" content="Latha Hotel" />
-  <meta property="og:description" content="Traditional vegetarian Udupi and Konkani flavours." />
-  <meta property="og:type" content="website" />
-  <title>Latha Hotel | Coastal Karnataka Dining</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09251c">
+  <meta name="description" content="Latha Hotel in Kota — a pure vegetarian restaurant with more than 60 years of family tradition.">
+  <title>Latha Hotel | A Legacy of Taste Since 1960</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-loader" aria-hidden="true"><span>LH</span></div>
-  <div class="grain" aria-hidden="true"></div>
-
-  <header class="site-header" id="top">
-    <a class="brand" href="#home" aria-label="Latha Hotel home">
-      <span class="brand-mark">LH</span>
-      <span class="brand-copy"><strong>Latha Hotel</strong><small>Coastal Karnataka</small></span>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="assets/brand/latha-hotel-logo.png" alt="Latha Hotel logo">
+      <span><strong>Latha Hotel</strong><small>Kota · Kundapura</small></span>
     </a>
 
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span>
     </button>
 
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="#story">Story</a>
+      <a href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="#highlights">Highlights</a>
       <a href="#menu">Menu</a>
-      <a href="#experience">Experience</a>
-      <a href="#visit">Visit</a>
+      <a href="#visit">Contact</a>
+      <div class="mobile-socials">
+        <a href="https://www.instagram.com/hotellatha/?hl=en" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/p/LATHA-HOTEL-100063767209932/" target="_blank" rel="noopener">Facebook</a>
+      </div>
     </nav>
 
-    <a class="header-cta" href="#visit">Plan a visit</a>
+    <a class="header-cta" href="https://www.google.com/maps/search/?api=1&query=Hotel+Latha+Veg+Kota+Karnataka" target="_blank" rel="noopener">Directions</a>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-media" aria-hidden="true"></div>
-      <div class="hero-shade" aria-hidden="true"></div>
-
-      <div class="hero-copy reveal-up">
-        <p class="kicker">Kota · Udupi · Since generations</p>
-        <h1>Heritage on a plate.</h1>
-        <p class="hero-lead">Traditional vegetarian cooking, rooted in coastal Karnataka and presented with quiet elegance.</p>
+      <img class="hero-image" src="assets/food/menthe-dose.webp" alt="Latha Hotel signature Menthe Dose">
+      <div class="hero-overlay"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Kota · Kundapura · Since 1960</p>
+        <h1>A tradition of timeless flavours.</h1>
+        <p>Pure vegetarian North and South Indian food, prepared with consistency, quality and more than six decades of family tradition.</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="#menu">Discover the menu</a>
-          <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Latha+Hotel+Kota+Kundapura">Get directions</a>
+          <a class="button gold" href="#highlights">Explore favourites</a>
+          <a class="button ghost" href="#story">Our story</a>
         </div>
       </div>
-
-      <div class="hero-note reveal-up delay-2">
-        <span>Signature</span>
-        <strong>Menthe Dose</strong>
-        <p>Soft, aromatic and distinctly local.</p>
+      <div class="rating-card reveal">
+        <span>Google rating</span>
+        <strong>4.5 ★</strong>
+        <p>3,913 reviews</p>
       </div>
-
-      <a class="scroll-cue" href="#story" aria-label="Scroll to story"><span></span>Scroll</a>
     </section>
 
-    <section class="marquee" aria-label="Restaurant highlights">
-      <div class="marquee-track">
-        <span>Pure Vegetarian</span><i>•</i><span>Udupi Cuisine</span><i>•</i><span>Konkani Flavours</span><i>•</i><span>Family Dining</span><i>•</i>
-        <span>Pure Vegetarian</span><i>•</i><span>Udupi Cuisine</span><i>•</i><span>Konkani Flavours</span><i>•</i><span>Family Dining</span><i>•</i>
-      </div>
+    <section class="feature-strip">
+      <div><strong>Pure Vegetarian</strong><span>100% vegetarian kitchen</span></div>
+      <div><strong>60+ Years</strong><span>Three generations</span></div>
+      <div><strong>Freshly Prepared</strong><span>Familiar, dependable taste</span></div>
+      <div><strong>Family Dining</strong><span>Warm and welcoming</span></div>
     </section>
 
     <section class="story section" id="story">
-      <div class="story-heading reveal-up">
-        <p class="kicker">Our story</p>
-        <h2>Familiar flavours,<br><em>carefully preserved.</em></h2>
+      <div class="story-copy reveal">
+        <p class="eyebrow dark">Our story</p>
+        <h2>A legacy of taste<br><em>since 1960.</em></h2>
+        <div class="ornament"><span></span></div>
+        <p class="lead">What began as a modest vegetarian hotel in Kota has grown into a familiar name known for quality food at reasonable prices.</p>
+        <p>The enterprise was founded by <strong>Kota Balakrishna Prabhu</strong>. His son <strong>Venkatesh Prabhu</strong> carried the tradition forward, and it continues today with his grandson <strong>Rajesh Prabhu</strong>.</p>
+        <p>Across three generations, Latha Hotel has served pure vegetarian North and South Indian food while preserving the dependable taste and hospitality guests remember.</p>
+        <div class="story-stats">
+          <div><strong>60+</strong><span>Years</span></div>
+          <div><strong>3</strong><span>Generations</span></div>
+          <div><strong>4.5 ★</strong><span>Google rating</span></div>
+        </div>
+        <a class="button dark-button" href="https://www.google.com/search?q=Hotel+Latha+Veg+Reviews" target="_blank" rel="noopener">Read Google reviews</a>
       </div>
-      <div class="story-copy reveal-up delay-1">
-        <p class="lead">Latha Hotel is known for honest vegetarian food and the comfort of recipes that belong to the region.</p>
-        <p>From soft Menthe Dose and fragrant Moode to Ragi Mudde with Bassaru, the menu brings together everyday coastal favourites and long-standing family traditions.</p>
-        <a class="text-link" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=OHtYY-VIet4">Watch the Latha Hotel story <span>↗</span></a>
+
+      <div class="heritage-panel reveal">
+        <div class="heritage-topline">
+          <div class="heritage-logo">
+            <img src="assets/brand/latha-hotel-logo.png" alt="">
+            <span>Family-run since 1960</span>
+          </div>
+          <span class="heritage-number">60+</span>
+        </div>
+
+        <div class="heritage-house-frame">
+          <img src="assets/brand/heritage-house.webp" alt="Vintage heritage illustration of Latha Hotel">
+          <div class="sketch-caption"><span>Our heritage</span><strong>A familiar Kota landmark</strong></div>
+        </div>
+        <div class="history-video history-video-link">
+          <div class="video-heading"><span>Watch our history</span><strong>The Latha Hotel story</strong></div>
+          <a class="video-poster heritage-video-card" href="https://www.youtube.com/watch?v=OHtYY-VIet4" target="_blank" rel="noopener" aria-label="Watch the Latha Hotel history video on YouTube">
+            <div class="video-monogram">
+              <img src="assets/brand/latha-hotel-logo.png" alt="">
+            </div>
+            <div class="video-card-copy">
+              <span>Since 1960</span>
+              <strong>Three generations.<br>One continuing tradition.</strong>
+              <small>Watch the Latha Hotel story on YouTube</small>
+            </div>
+            <span class="play-button" aria-hidden="true">▶</span>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section class="editorial-grid section">
-      <figure class="editorial-image tall reveal-left">
-        <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=1200&q=88" alt="Traditional vegetarian dining presentation" loading="lazy" />
-        <figcaption>Coastal tradition, served simply.</figcaption>
-      </figure>
-      <div class="editorial-center reveal-up">
-        <p class="number">01</p>
-        <p class="kicker">The philosophy</p>
-        <h3>Ingredient-led.<br>Uncomplicated.<br>Memorable.</h3>
+    <section class="highlights" id="highlights">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Signature dishes</p>
+        <h2>Our culinary highlights</h2>
+        <p>A selection of well-loved dishes from the Latha Hotel kitchen.</p>
       </div>
-      <figure class="editorial-image short reveal-right">
-        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=88" alt="Indian spices used in traditional cooking" loading="lazy" />
-        <figcaption>Flavour begins with the essentials.</figcaption>
+
+      <div class="signature-card reveal">
+        <div class="signature-media">
+          <img src="assets/food/menthe-dose.webp" alt="Menthe Dose with butter and chutney">
+          <span>Must try</span>
+        </div>
+        <div class="signature-copy">
+          <p class="eyebrow">Latha Hotel signature</p>
+          <h3>Menthe Dose</h3>
+          <p>Soft, aromatic and distinctive. A long-standing favourite closely associated with Latha Hotel.</p>
+          <div class="dish-notes"><span>House speciality</span><span>Vegetarian</span><span>Breakfast favourite</span></div>
+        </div>
+      </div>
+
+      <div class="carousel-shell reveal">
+        <button class="carousel-button prev" aria-label="Previous dishes">←</button>
+        <div class="carousel" id="foodCarousel">
+          <article class="food-card"><img src="assets/food/set-dosa.webp" alt="Set dosa"><div><h3>Set Dosa</h3><p>Soft, light and served with traditional accompaniments.</p></div></article>
+          <article class="food-card"><img src="assets/food/goli-baje.webp" alt="Goli Baje"><div><h3>Goli Baje</h3><p>Crisp outside, soft inside and ideal for evening service.</p></div></article>
+          <article class="food-card"><img src="assets/food/idli-vada.webp" alt="Idli and vada"><div><h3>Idli & Vada</h3><p>A dependable South Indian breakfast combination.</p></div></article>
+          <article class="food-card"><img src="assets/food/shavige.webp" alt="Shavige"><div><h3>Shavige</h3><p>Delicate rice noodles served with familiar accompaniments.</p></div></article>
+          <article class="food-card"><img src="assets/food/south-indian-meals.webp" alt="South Indian meals"><div><h3>Vegetarian Meals</h3><p>A wholesome plate with rice, curries and seasonal sides.</p></div></article>
+          <article class="food-card"><img src="assets/food/chole-bhature.webp" alt="Chole Bhature"><div><h3>Chole Bhature</h3><p>A familiar North Indian favourite, rich and satisfying.</p></div></article>
+          <article class="food-card"><img src="assets/food/gobi-manchurian.webp" alt="Gobi Manchurian"><div><h3>Gobi Manchurian</h3><p>Crisp cauliflower with bold Indo-Chinese seasoning.</p></div></article>
+          <article class="food-card"><img src="assets/food/sheera.webp" alt="Sheera"><div><h3>Sheera</h3><p>A warm, comforting sweet prepared in the traditional style.</p></div></article>
+        </div>
+        <button class="carousel-button next" aria-label="Next dishes">→</button>
+      </div>
+      <div class="carousel-cue" aria-hidden="true">
+        <span class="swipe-icon">↔</span>
+        <span>Swipe to explore more dishes</span>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <section class="philosophy section">
+      <figure class="philosophy-photo reveal">
+        <img src="assets/food/idli-sambar.webp" alt="Professional presentation of idli and sambar">
       </figure>
+      <div class="philosophy-copy reveal">
+        <p class="eyebrow dark">Our philosophy</p>
+        <h2>Simple food.<br>Prepared with care.</h2>
+        <p>Good vegetarian food does not need unnecessary complexity. It depends on consistency, fresh preparation and respect for familiar flavours.</p>
+        <ul><li>Pure vegetarian kitchen</li><li>North and South Indian selection</li><li>Quality at a reasonable price</li></ul>
+      </div>
     </section>
 
     <section class="menu-section section" id="menu">
-      <div class="menu-intro reveal-up">
-        <div><p class="kicker">Selected dishes</p><h2>A menu shaped by the coast.</h2></div>
-        <p>Availability may vary by time of day. Prices should be added after confirmation from the new branch.</p>
+      <div class="section-heading light reveal">
+        <p class="eyebrow dark">Selected menu</p>
+        <h2>Familiar favourites throughout the day</h2>
+        <p>Availability and pricing can be updated for the new branch.</p>
       </div>
-
-      <div class="menu-toolbar reveal-up delay-1">
-        <div class="menu-filters" role="group" aria-label="Filter menu">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="breakfast">Breakfast</button>
-          <button class="filter" data-filter="lunch">Lunch</button>
-          <button class="filter" data-filter="snacks">Snacks</button>
-        </div>
-        <span class="menu-count" id="menuCount"></span>
+      <div class="filters reveal">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="breakfast">Breakfast</button>
+        <button data-filter="lunch">Lunch</button>
+        <button data-filter="snacks">Snacks</button>
       </div>
-
-      <div class="menu-list" id="menuGrid"></div>
-    </section>
-
-    <section class="experience" id="experience">
-      <div class="experience-media" aria-hidden="true"></div>
-      <div class="experience-panel reveal-up">
-        <p class="kicker">The experience</p>
-        <h2>Warm service.<br>Calm surroundings.<br>Timeless food.</h2>
-        <p>The new branch can carry forward the trust of the original Latha Hotel while introducing a more refined dining environment.</p>
-        <div class="experience-points">
-          <span>01 · Vegetarian kitchen</span>
-          <span>02 · Family-friendly dining</span>
-          <span>03 · Regional specialities</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="details section">
-      <article class="detail-card reveal-up">
-        <span>01</span><h3>Breakfast</h3><p>Local favourites prepared fresh for the morning service.</p>
-      </article>
-      <article class="detail-card reveal-up delay-1">
-        <span>02</span><h3>Lunch</h3><p>Wholesome vegetarian meals and traditional regional combinations.</p>
-      </article>
-      <article class="detail-card reveal-up delay-2">
-        <span>03</span><h3>Evening</h3><p>Classic snacks, hot beverages and familiar comfort food.</p>
-      </article>
+      <div class="menu-grid" id="menuGrid"></div>
     </section>
 
     <section class="visit section" id="visit">
-      <div class="visit-copy reveal-left">
-        <p class="kicker">Visit us</p>
+      <div class="visit-copy reveal">
+        <p class="eyebrow dark">Visit us</p>
         <h2>Latha Hotel</h2>
-        <p class="visit-place">Kota, Udupi District<br>Karnataka, India</p>
-        <p class="small-note">Replace this address, phone number and opening hours with the confirmed details for the new branch before launch.</p>
+        <p>Fisheries Road, Kota<br>Karnataka 576221</p>
+        <div class="review-chip"><strong>4.5 ★</strong><span>3,913 Google reviews</span></div>
       </div>
-      <div class="visit-card reveal-right">
-        <div><span>Opening hours</span><strong>To be confirmed</strong></div>
-        <div><span>Reservations</span><strong>Walk-ins welcome</strong></div>
-        <div><span>Contact</span><strong>Add branch number</strong></div>
-        <a class="btn btn-dark" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Latha+Hotel+Kota+Kundapura">Open Google Maps</a>
+      <div class="contact-card reveal">
+        <div><span>Contact</span><a href="tel:+919845711915">+91 98457 11915</a></div>
+        <div><span>Instagram</span><a href="https://www.instagram.com/hotellatha/?hl=en" target="_blank" rel="noopener">@hotellatha</a></div>
+        <div><span>Facebook</span><a href="https://www.facebook.com/p/LATHA-HOTEL-100063767209932/" target="_blank" rel="noopener">Latha Hotel</a></div>
+        <a class="button gold full" href="https://www.google.com/maps/search/?api=1&query=Hotel+Latha+Veg+Kota+Karnataka" target="_blank" rel="noopener">Open Google Maps</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="footer-brand"><span class="brand-mark">LH</span><div><strong>Latha Hotel</strong><small>Traditional vegetarian dining</small></div></div>
-    <div class="footer-links"><a href="#story">Story</a><a href="#menu">Menu</a><a href="#visit">Visit</a></div>
+    <div class="footer-brand"><img src="assets/brand/latha-hotel-logo.png" alt="Latha Hotel logo"><span><strong>Latha Hotel</strong><small>Pure vegetarian dining since 1960</small></span></div>
+    <div class="footer-links"><a href="#story">Story</a><a href="#highlights">Highlights</a><a href="#menu">Menu</a><a href="#visit">Contact</a></div>
     <p>© <span id="year"></span> Latha Hotel</p>
   </footer>
 
