@@ -349,7 +349,7 @@ html.menu-open,body.menu-open{overflow:hidden!important;height:100%}
   .heritage-video-card::after {
     animation: none !important;
   }
-
+.video-poster:hover .play-button{ tranform:none;}
   .heritage-video-card .play-button {
     animation: none !important;
   }
